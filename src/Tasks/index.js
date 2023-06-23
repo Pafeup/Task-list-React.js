@@ -14,7 +14,8 @@ const Tasks = (props) => (
         <span className={`${task.done ? "taskList__done" : ""}`}>
           {task.content}
         </span>
-        <button className="taskList__button taskList__button--remove">🗑</button>
+        <button className="taskList__button taskList__button--remove">
+          🗑</button>
       </li>
     ))}
   </ul>

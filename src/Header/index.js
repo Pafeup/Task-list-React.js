@@ -1,5 +1,3 @@
-
-
 const Header = ({title}) => (
     <h1 className="main__header">
         {title}
