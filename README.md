@@ -8,16 +8,22 @@ Hello!
 
 This is a simple application where you can create a to-do list.
 
-This is my previous project that I am porting to React.\
-Currently, the project does not have any interactive features implemented.\
-However, in the future, I plan to introduce interactions such as marking tasks as done and removing them from the list.
+This is my previous project ported to React,\
+where I am learning how to add interactions.
 
-If you're interested, I invite you to check out my work using the link below. Stay tuned for future updates!
+In this application, you can:
+- Add new tasks.
+- Check or uncheck tasks to mark them as completed.
+- Mark all tasks as completed at once.
+- Hide completed tasks.
+- Delete tasks from the list.
+
+If you're interested, I invite you to check out my work using the link below.
 
 #### Demo:
 https://pafeup.github.io/Task-list-React.js/
 
-## Preview of the idea:
+## Preview:
 ![taskListPrezentation](public/images/taskListPresentation.gif)
 
 ## Tools & Technologies:
@@ -43,11 +49,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
