@@ -24,7 +24,7 @@ If you're interested, I invite you to check out my work using the link below.
 https://pafeup.github.io/Task-list-React.js/
 
 ## Preview:
-![taskListPrezentation](public/images/taskListPresentation.gif)
+![taskListPrezentation](public/images/TaskListReactPrezentation.gif)
 
 ## Tools & Technologies:
 - HTML
