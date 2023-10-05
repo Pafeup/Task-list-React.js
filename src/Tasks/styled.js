@@ -37,11 +37,11 @@ export const Button = styled.button`
 
     ${({ toggleDone }) => toggleDone && css`
     
-        &:hover{
+        &:hover {
             background-color: hsl(120, 100%, 30%);
         };
 
-        &:active{
+        &:active {
             outline: auto black;
             background-color: hsl(120, 100%, 35%);
         };
@@ -51,11 +51,11 @@ export const Button = styled.button`
         background-color: crimson;
         font-weight: normal;
 
-        &:hover{
+        &:hover {
             background-color: hsl(348, 83%, 52%);
         };
 
-        &:active{
+        &:active {
             outline: auto black;
             background-color: hsl(348, 83%, 57%);
         };
