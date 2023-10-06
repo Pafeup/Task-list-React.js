@@ -6,7 +6,7 @@ export const ButtonsArea = styled.div`
     align-items: center;
     justify-content: center;
     
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         display: grid;
         grid-template-columns: 1fr;
         gap: 15px;
@@ -15,14 +15,14 @@ export const ButtonsArea = styled.div`
 `
 
 export const StyledButtons = styled.button`
-    color: teal;
+    color: ${({ theme }) => theme.colors.mainColor};
     background-color: transparent;
     border: 0px transparent;
     padding: 0 10px;
     transition: 0.5s;
 
     &:hover {
-        color: hsl(180, 100%, 35%);
+        color: ${({ theme }) => theme.colors.mainColorHover};
     }
 
     &:disabled {

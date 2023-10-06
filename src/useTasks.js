@@ -10,7 +10,7 @@ const useTasks = () => {
         }, [key, value]);
 
         return [value, setValue];
-    }
+    };
     const [hideDone, setHideDone] = useLocalStorage("hideDone", false);
     const [tasks, setTasks] = useLocalStorage("tasks", []);
 
@@ -61,5 +61,5 @@ const useTasks = () => {
         toggleHideDone,
         hideDone,
     };
-}
+};
 export default useTasks;

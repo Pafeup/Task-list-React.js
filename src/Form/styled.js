@@ -6,7 +6,7 @@ export const StyledForm = styled.form`
     grid-template-columns: 1fr auto;
     gap: 20px;  
     
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
       grid-template-columns: 1fr;
     };
 `;
@@ -17,7 +17,7 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-    background-color: teal;
+    background-color: ${({ theme }) => theme.colors.mainColor};
     color: white;
     border: 0px;
     padding: 10px;
@@ -25,7 +25,7 @@ export const Button = styled.button`
 
     &:hover {
         transform: scale(1.1);
-        background-color: hsl(180, 100%, 30%);   
+        background-color: ${({ theme }) => theme.colors.mainColorHover};  
     };
 
     &:active {
